@@ -2,7 +2,7 @@
 
 This is an example of a deployment of a `NextJS` application exported to `static html`, which will be deployed using the [Serverless Framework](https://serverless.com/) along with the [Lift](https://github.com/getlift/lift)) plugin, which allows you to use [constructs](https://docs.aws.amazon.com/cdk/latest/guide/constructs.html) from the AWS CDK to the Amazon Web Services `cloud`.
 
- In this particular case, we are using a [static-webiste](https://github.com/getlift/lift/blob/master/docs/static-website.md) construct that performs:
+ In this particular case, we are using a [static-website](https://github.com/getlift/lift/blob/master/docs/static-website.md) construct that performs:
  -  deployment to an S3 bucket.
  -  CloudFront CDN is configured to serve the website from S3 over HTTPS, with caching at the edge.
 
