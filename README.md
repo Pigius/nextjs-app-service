@@ -97,6 +97,10 @@ The repository consists of two parts:
 - the frontend folder, where the NextJS application is located.
 - application and the main part where you can find files related to Serverless Framework.
 
+# Eject
+
+Please note that in case your project grows beyond the plugin, you can [eject](https://github.com/getlift/lift#ejecting)from Lift at any time, as the plugin is based on CloudFormation.
+
 ## Remove service
 
 To remove the service do:
