@@ -1,0 +1,12 @@
+service: my-nextjs-app
+provider:
+    name: aws
+    region: us-east-1
+
+constructs:
+    landing:
+        type: static-website
+        path: frontend/out
+
+plugins:
+    - serverless-lift
